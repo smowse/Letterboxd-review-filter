@@ -4,7 +4,7 @@ Just like a "no junk mail" sticker on your letterbox, this userscript filters sp
 
 Runs entirely in your browser. No account, no server, no data leaves your machine.
 
-![Screenshot](screenshots/hidden-review.png)
+![Demo](assets/Main%20Panel%20Demo.gif)
 
 ## AI use disclaimer
 
@@ -60,3 +60,7 @@ Each review is scored against a set of heuristics - length, emoji density, "inte
 
 - Pure heuristics, _no AI_ - it won't catch every joke, and very occasionally it'll misjudge a genuinely short, punchy review. That's the trade-off for something fast, free, and fully local.
 - Letterboxd's page markup can change over time; if hiding stops working after a site update, open an issue with a copy of one review's HTML (right-click → Inspect → Copy outerHTML) and it can be patched.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
