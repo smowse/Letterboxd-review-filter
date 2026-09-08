@@ -4,7 +4,9 @@ Just like a "no junk mail" sticker on your letterbox, this userscript filters sp
 
 Runs entirely in your browser. No account, no server, no data leaves your machine.
 
-![Demo](assets/Main%20Panel%20Demo.gif)
+<p align="center">
+  <img src="assets/MainPanelDemo.gif" width="20%">
+</p>
 
 ## AI use disclaimer
 
