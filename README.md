@@ -1,26 +1,22 @@
-# Letterboxd Review Filter
+# NO JUNKMAIL: Letterboxd Review Filter
 
-Just like a "no junk mail" sticker on your letterbox, this userscript filters spam, joke reviews, and low-effort one-liners out of Letterboxd - so you get the film criticism without wading through Twitter-brained puns to find it.
+Just like a "no junk mail" sticker on your letterbox, this userscript filters spam, joke reviews, and low-effort one-liners out of your Letterboxd. This means you can pick a movie based on actually helpful user reviews without wading through upvote thirsty twitter puns. No Junkmail for Letterboxd let's you take all of these changes while still enjoying your friends reviews.
 
-Runs entirely in your browser. No account, no server, no data leaves your machine.
+This runs entirely in your browser. No account needed, no external server saving your data, all locally hosted on your browser.
 
 <p align="center">
   <img src="assets/MainPanelDemo.gif" width="20%">
 </p>
 
-## AI use disclaimer
-
-AI (Claude Sonnet 5 Medium) was used to create this project and is not present in the user script. AI is **not** part of how this program works, it is entirely self hosted and heuristics based. Thank you to friends who helped pick out bugs and improve features. I will plant 5 of my own supplied native trees this Summer as part of a wider day spent removing invasive plant species from a State Park in Western Victoria, Australia.
-
 ## Features
 
 - **Conservative by default** - a review needs several signals to agree (short + emoji-heavy, a Twitter-ism phrase + no punctuation, etc.) before it's hidden. Length alone won't trigger it.
-- **Fully tunable** - adjust strictness (Conservative / Balanced / Aggressive) from an in-page settings panel styled to match Letterboxd itself.
-- **Teachable** - click "Not a joke" on a hidden review to unhide it and quietly correct the filter. Click "hide this" on any review to teach it the other way.
-- **User whitelist** - always show reviews from specific people, or import your entire following list in one click.
+- **Fully tunable** - adjust strictness (Conservative / Balanced / Aggressive) on the main panel (demo'd in GIF above).
+- **Teachable** - click "Not a joke" on a hidden review to unhide it and quietly correct the filter. Click "hide this" or add common joke phrases to the ban list to strengthen the tool.
+- **User whitelist** - always show reviews from specific people - import your friends/following list in one click.
 - **Custom phrase list** - add or remove the joke phrases it looks for, right from the panel.
 
-## Install
+## How to Install
 
 This is a **userscript**, not a browser extension - it runs inside a free userscript manager called Tampermonkey.
 
@@ -42,6 +38,7 @@ This is a **userscript**, not a browser extension - it runs inside a free usersc
 - Save (`Ctrl+S` / `Cmd+S`)
 
 That's it - it activates automatically on any `letterboxd.com` page.
+Pro tip - add in "banned phrases starterlist" to your banned phrases list to get the ball rolling.
 
 ## Usage
 
@@ -65,4 +62,8 @@ Each review is scored against a set of heuristics - length, emoji density, "inte
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT - see [LICENSE](LICENSE).
+
+## AI use disclaimer
+
+AI (Claude Sonnet 5 Medium) was used to create this project and is not present in the user script. AI is **not** part of how this program works, it is entirely self hosted and heuristics based. Thank you to friends who helped pick out bugs and improve features. I will plant 5 of my own supplied native trees this Summer as part of a wider day spent removing invasive plant species from a State Park in Western Victoria, Australia.
